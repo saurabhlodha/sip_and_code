@@ -9,3 +9,4 @@ pin "bootstrap", to: "https://ga.jspm.io/npm:bootstrap@5.3.2/dist/js/bootstrap.e
 pin "@popperjs/core", to: "https://ga.jspm.io/npm:@popperjs/core@2.11.8/lib/index.js"
 pin "swiper", to: "https://ga.jspm.io/npm:swiper@11.0.2/swiper.mjs"
 pin "aos", to: "https://ga.jspm.io/npm:aos@2.3.4/dist/aos.js"
+pin "boxicons", to: "https://ga.jspm.io/npm:boxicons@2.1.4/dist/boxicons.js"
