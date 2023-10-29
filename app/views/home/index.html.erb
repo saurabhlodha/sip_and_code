@@ -1,2 +1,9 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<%= render partial: 'home/partials/hero' %>
+
+<main id="main">
+  <%= render partial: 'home/partials/about' %>
+  <%= render partial: 'home/partials/call_to_action' %>
+  <%= render partial: 'home/partials/services' %>
+  <%= render partial: 'home/partials/testimonials' %>
+  <%= render partial: 'home/partials/contact_form' %>
+</main>
