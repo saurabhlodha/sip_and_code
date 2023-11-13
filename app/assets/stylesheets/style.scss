@@ -1180,3 +1180,56 @@ section {
   color: #ffffff;
   font-size: 20px;
 }
+
+/* Work in progress page css start  */
+.wipPage {
+  width: 100%;
+  background: url("../img/hero-bg.jpg");
+  position: relative;
+  padding: 100px 0 0 0;
+}
+
+.wipPage:before {
+  content: "";
+  background: rgba(2, 5, 161, 0.91);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.wipPage .container .row {
+  background: #e4e8f5;
+  position: relative;
+  padding: 20px;
+  margin: 20px auto 50px;
+  min-height: calc(100vh - 300px);
+  width: 100%;
+}
+
+.wipPage .container h1 {
+  font-weight: bold;
+}
+
+.wipPage .container p {
+  padding: 10px 0 0;
+}
+
+.wipPage .container a {
+  color: #0000ff;
+}
+
+.imgIcon {
+  margin-bottom: -50px;
+}
+.imgIcon img {
+  width: 400px;
+}
+
+@media (min-width: 1024px) {
+  .wipPage {
+    background-attachment: fixed;
+  }
+}
+/* Work in progress page css end  */
