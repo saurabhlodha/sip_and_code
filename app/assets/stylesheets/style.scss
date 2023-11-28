@@ -303,7 +303,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: assets-url("hero-bg");
+  background: image_url("hero-bg");
   position: relative;
   padding: 120px 0 0 0;
 }
@@ -754,7 +754,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: assets-url("cta-bg") no-repeat;
+  background: image_url("cta-bg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1184,7 +1184,7 @@ section {
 /* Work in progress page css start  */
 .wipPage {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: image_url("hero-bg");
   position: relative;
   padding: 100px 0 0 0;
 }
