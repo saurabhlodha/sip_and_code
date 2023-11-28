@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: sip_and_code_production
-  username: sip_and_code
+  username: deploy
   password: <%= ENV["SIP_AND_CODE_DATABASE_PASSWORD"] %>
